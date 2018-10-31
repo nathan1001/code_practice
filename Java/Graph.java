@@ -21,18 +21,18 @@ public static class Graph {
 
         int[] distances = new int[size];
         Arrays.fill(distances, -1);
-        Queue<Integer> que = new LinkedList<>();
+        Queue<Integer> queue = new LinkedList<>();
 
-        que.add(startId);
+        queue.add(startId);
         distances[startId] = 0;
         HashSet<Integer> visited = new HashSet<>();
 
         visited.add(startId);
-        while(!que.isEmpty()) {
-            Integer curr = que.poll();
+        while(!queue.isEmpty()) {
+            Integer curr = queue.poll();
             for(int node : adjacents.get(curr)) {
                 if(!visited.contains(node)) {
-                    que.offer(node);
+                    queuw.offer(node);
         // Right place to add the visited set.
                     visited.add(node);
         // keep on increasing distance level by level.
