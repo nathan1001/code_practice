@@ -1,0 +1,7 @@
+
+Python/__pycache__/
+
+\.DS_Store
+myEJSApp/node_modules/
+myExpressApp/node_modules/
+
