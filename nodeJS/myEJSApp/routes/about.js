@@ -1,9 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET users listing. */
+/* GET about page. */
 router.get('/', function(req, res, next) {
-  res.send('God has always been faithful');
+  res.render('about', { 
+    title: 'About',
+    name:'Nathan Donkor' });
 });
 
 module.exports = router;

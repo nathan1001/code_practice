@@ -5,7 +5,19 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+
+  <% include templates/header.ejs%>
+
+   <p><%= name%></p>
+   <p><%= videodata.categoryName%></p>
+
+   <% videodata.categories.forEach(function(item){ %>
+
+    <li><a href="https://www.thenewboston.com/video_food.php?cat=<%= item.categoryID%> "><%= item.categoryName%></a></li>
+    <p> <%= item.categoryDescription%></p>
+   
+
+   <%  }); %>
+
   </body>
 </html>
