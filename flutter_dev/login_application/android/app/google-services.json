@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "461648540722",
+    "firebase_url": "https://school-eport-card.firebaseio.com",
+    "project_id": "school-eport-card",
+    "storage_bucket": "school-eport-card.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461648540722:android:c8abb3cd4a711ded",
+        "android_client_info": {
+          "package_name": "com.example.loginapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461648540722-tvc297tl7sniipnlvjq9et2cr188erco.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginapplication",
+            "certificate_hash": "0613d48d89edf348f75cfcae58b0c96ca9f851a6"
+          }
+        },
+        {
+          "client_id": "461648540722-kbdbohet9ajr3ook0nhfaqfddr3k5evl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr4NBcXdzwlBV69F5b_e7ufw-i_i4ll-Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461648540722-kbdbohet9ajr3ook0nhfaqfddr3k5evl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "461648540722-mvitfinfdsk02ag7pnmpsi58n2bmnmnn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.loginApplication"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
