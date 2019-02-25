@@ -15,22 +15,7 @@ class _LoginPageState extends State<LoginPage> {
   String _password;
 
   final GoogleSignIn _googleSignIn=GoogleSignIn();
-  // final FirebaseAuth _auth = FirebaseAuth.instance;
 
-
-//  Future <FirebaseUser> googleSignIn() async{
-  
-//   GoogleSignInAccount googleUser = await _googleSignIn.signIn();
-//   GoogleSignInAuthentication googleAuth = await googleUser.authentication;
-//   AuthCredential credential = GoogleAuthProvider.getCredential(
-//     idToken:googleAuth.idToken,
-//     accessToken:googleAuth.accessToken
-//   );
-
-//   FirebaseUser user = await _auth.signInWithCredential(credential);
-
-//   return user;
-// }
 
   @override
   Widget build(BuildContext context) {
